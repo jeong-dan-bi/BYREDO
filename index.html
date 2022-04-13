@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYREDO</title>
+     <!-- 구글 material icon 설정 -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+     <!-- css -->
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/common.css">
+
+    <!-- swiper slider cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+     <!-- js -->
+     <script defer src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <h1><a href="/"><img src="images/logo1.png" alt="logo"></a></h1>
+            <!-- pc nav -->
+            <nav id="gnb-pc">
+                <ul class="main-menu">
+                    <li class="item">
+                        <div class="item-name"><a href="#">Perfume</a></div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="menu__inner">
+                                    <li><a href="#">카테고리</a></li>
+                                    <li><a href="#">모든제품</a></li>
+                                    <li><a href="#">향수</a></li>
+                                    <li><a href="#">헤어 퍼퓸</a></li>
+                                    <li><a href="#">롤온 퍼퓸</a></li>
+                                    <li><a href="#">여행용</a></li>
+                                    <li><a href="#">Discovery 세트</a></li>
+                                </ul>
+                                <ul class="menu__inner">
+                                    <li><a href="#">Olfactive Families</a></li>
+                                    <li><a href="#">시트러스 (Citrus)</a></li>
+                                    <li><a href="#">플로럴(Floral)</a></li>
+                                    <li><a href="#">후루티(Fruity)</a></li>
+                                    <li><a href="#">오리엔탈(Oriental)</a></li>
+                                    <li><a href="#">우디(Woody)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="item-name"><a href="#">Fragrance</a></div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="menu__inner">
+                                    <li><a href="#">모든제품</a></li>
+                                    <li><a href="#">캔들</a></li>
+                                    <li><a href="#">룸스프레이</a></li>
+                                    <li><a href="#">섬유 향수</a></li>
+                                    <li><a href="#">액세서리</a></li>
+                                </ul>
+                                <ul class="menu__inner">
+                                    <li><a href="#">Top Scents</a></li>
+                                    <li><a href="#">Ambre Japonais</a></li>
+                                    <li><a href="#">Bibliothèque</a></li>
+                                    <li><a href="#">Burning Rose</a></li>
+                                    <li><a href="#">Cotton Poplin</a></li>
+                                    <li><a href="#">Tree House</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="item-name"><a href="#">Makeup</a></div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="menu__inner">
+                                    <li><a href="#">Eyes</a></li>
+                                    <li><a href="#">모든제품</a></li>
+                                    <li><a href="#">마스카라</a></li>
+                                    <li><a href="#">아이쉐도우</a></li>
+                                    <li><a href="#">아이라이너</a></li>
+                                </ul>
+                                <ul class="menu__inner">
+                                    <li><a href="#">Lip</a></li>
+                                    <li><a href="#">모든제품</a></li>
+                                    <li><a href="#">립스틱</a></li>
+                                    <li><a href="#">립밤</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="item-name"><a href="#">Hand & Body</a></div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="menu__inner">
+                                    <li><a href="#">Hand Care</a></li>
+                                    <li><a href="#">핸드 워시</a></li>
+                                    <li><a href="#">핸드 크림</a></li>
+                                    <li><a href="#">베티버</a></li>
+                                    <li><a href="#">비누</a></li>
+                                    <li><a href="#">액세서리</a></li>
+                                </ul>
+                                <ul class="menu__inner">
+                                    <li><a href="#">Body & Hair Care</a></li>
+                                    <li><a href="#">바디워시</a></li>
+                                    <li><a href="#">바디로션</a></li>
+                                    <li><a href="#">바디 크림</a></li>
+                                    <li><a href="#">헤어 퍼퓸</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mo,tab nav -->
+        <nav id="gnb-mo">
+            <div class="search">
+                <p>sing in</p>
+                <input type="text">
+                <span class="material-icons">
+                    search
+                </span>
+            </div>
+            <ul class="mainMenu">
+                <li class="item" id="new">
+                    <a href="#new" class="btn">Perfume</a>
+                    <ul class="subMenu">
+                        <li><a href="#">카테고리</a></li>
+                        <li><a href="#">Olfactive Families</a></li>
+                    </ul>
+                </li>
+                <li class="item" id="brand">
+                    <a href="#brand" class="btn">Makeup</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Eyes</a></li>
+                        <li><a href="#">Lip</a></li>
+                    </ul>
+                </li>
+                <li class="item" id="furniture">
+                    <a href="#furniture" class="btn">Fragrance</a>
+                    <ul class="subMenu">
+                        <li><a href="#">모든제품</a></li>
+                        <li><a href="#">Top Scents</a></li>
+                    </ul>
+                </li>
+                <li class="item" id="lightng">
+                    <a href="#lightng" class="btn">Hand & Body</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Hand Care</a></li>
+                        <li><a href="#">Body & Hair Care</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- 토글버튼 -->
+        <div class="menu-toggle-btn">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </div>
+    </header>
+
+     <!-- 방향 horizontal -->
+     <section class="main-slider">
+        <h2 class="hidden">swiper slider</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="#"><img src="images/swiper_img/slide1.png" alt="slide"></a></div>
+              <div class="swiper-slide"><a href="#"><img src="images/swiper_img/slide2.png" alt="slide"></a></div>
+              <div class="swiper-slide"><a href="#"><img src="images/swiper_img/slide3.png" alt="slide"></a></div>
+            </div>
+          </div>
+          <!-- 버튼 -->
+          <div class="swiper-prev"><span class="material-icons">arrow_back</span></div>
+          <div class="swiper-next"><span class="material-icons">arrow_forward</span></div>
+    </section>
+
+     <!-- 방향 horizontal -->
+     <section class="best-item">
+        <h2>향에는 성별이 없다</h2>
+        <div class="best-item__inner">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/1996.png" alt="1996"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/bal_d_afrique.png" alt="bal_d_afrique"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/blanche_limited.png" alt="blanche_limited"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/gypsy_water.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/inflorescence.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/la_selection.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/la_tulipe.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/lil_fleur.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/mixed_emotions.png" alt="banner"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="images/swiper_img/open_sky.png" alt="banner"></a></div>
+                </div>
+              </div>
+              <!-- 버튼 -->
+              <div class="swiper-prev"><span class="material-icons">arrow_back_ios</span></div>
+              <div class="swiper-next"><span class="material-icons">arrow_forward_ios</span></div>
+        </div>
+    </section>
+
+
+     <!-- 배경 fixed area -->
+     <section id="fixed">
+        <h2 class="hidden">fixed_img</h2>
+      </section>
+
+      <!-- content area -->
+      <section id="content-pc">
+        <h2 class="hidden">content</h2>
+        <a href="#" class="perfume"><img src="images/section1_perfume.png" alt="Lil Fleur"></a>
+        <div class="perfume_box">
+            <h3>Lil Fleur</h3>
+            <p>
+                솟구치는 절은 감정들로부터의 영감<br>
+                음악이 흐르고,<br>
+                기쁨과 슬픔이 공존하는 세상속의 가능성, 대담성, 진정성
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+        <a href="#" class="handwash"><img src="images/section1_suade.png" alt="suade_wash"></a>
+        <div class="handwash_box">
+            <h3>suade Handwash</h3>
+            <p>
+                달콤한 서양배와 빛나는 듯한 베르가못<br>
+                그리고 프레시 알데히드이 조화의 투명하고 깨끗한 시작
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+        <a href="#" class="handcream"><img src="images/section1_handcream.png" alt="Mojave Ghost"></a>
+        <div class="handcream_box">
+            <h3>Mojave Ghost</h3>
+            <p>
+                모하비 사막의 건조하고 황량함을 이겨내고 피어난<br>
+                고스트 플라워의 매혹적인 생존과 강인한 생명력에 대한 오마주
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+    </section>
+    <!-- mo&tab content area -->
+     <!-- content area -->
+     <section id="content-mo">
+        <h2 class="hidden">content</h2>
+        <a href="#" class="perfume"><img src="images/section1_perfume.png" alt="Lil Fleur"></a>
+        <div class="perfume_box">
+            <h3>Lil Fleur</h3>
+            <p>
+                솟구치는 절은 감정들로부터의 영감<br>
+                음악이 흐르고,<br>
+                기쁨과 슬픔이 공존하는 세상속의 가능성, 대담성, 진정성
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+        <a href="#" class="handwash"><img src="images/section1_suade.png" alt="suade_wash"></a>
+        <div class="handwash_box">
+            <h3>suade Handwash</h3>
+            <p>
+                달콤한 서양배와 빛나는 듯한 베르가못<br>
+                그리고 프레시 알데히드이 조화의 투명하고 깨끗한 시작
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+        <a href="#" class="handcream"><img src="images/section1_handcream.png" alt="Mojave Ghost"></a>
+        <div class="handcream_box">
+            <h3>Mojave Ghost</h3>
+            <p>
+                모하비 사막의 건조하고 황량함을 이겨내고 피어난<br>
+                고스트 플라워의 매혹적인 생존과 강인한 생명력에 대한 오마주
+            </p>
+            <a href="#">제품 자세히보기</a>
+        </div>
+    </section>
+
+    <section class="Our-Stories">
+        <div class="our-back">
+            <h2>Our Stories</h2>
+            <img src="images/sns_candles.gif" alt="candles">
+            <img src="images/sns_poster.png" alt="poster">
+            <img src="images/sns_redtulip.gif" alt="redtulip">
+            <img src="images/sns_yellowtulip.gif" alt="yellowtulip">
+        </div>
+    </section>
+
+    <!-- brandstory area -->
+
+    <section id="brandstory">
+        <div class="brandstory__inner">
+            <h2 class="hidden">brand_story</h2>
+            <img src="images/brandstory_img.jpg" alt="Ben_Gorham">
+            <div>
+                <span class="front">“</span>
+                <h2>By Redolence</h2>
+                <span>향기, 기억을 불러일으키는 무언가</span>
+                <span class="back">”</span>
+                <p>단순한 만큼 강렬한건 없다.</p>
+            </div>
+        </div>        
+    </section>    
+
+
+    <footer>
+        <div class="footer__inner">
+            <nav class="f-nav">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">서비스이용약관</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">매장찾기</a></li>
+                </ul>
+            </nav>
+            <h4><a href="#"><img src="images/logo2.png" alt="footer_logo"></a></h4>
+            <hr>
+            <address>
+                서울 강남구 도산대로45길 12 바이레도 도산로점 &#40;서울특별시 강남구 신사동 650-18 &#41; &#124;
+                TEL : 02-546-0600 &#124; FAX : 02-546-0063 &#124; <br>
+                사업자등록번호 : 33-0186-476-005 &#124;
+                통신판매업 신고 : 강남 제 002513호 &#124; 대표 : Ven Gorham
+            </address>
+        </div>
+    </footer>
+
+</body>
+</html>

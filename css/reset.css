@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size:100%;    /* 1em */
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    /* color: #000; */
+    color: inherit;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section,
+a, span, img{
+	display: block;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+    border: none;
+}
+
+body{
+    line-height: 1;
+}
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+dfn, i, cite, var, address, em {
+    font-style: normal;
+    }
+
+font{
+    color: inherit;
+    font: inherit;
+}
+
+blink{
+    text-decoration: none;
+}
+
